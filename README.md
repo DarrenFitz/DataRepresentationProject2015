@@ -47,7 +47,7 @@ An appropriate URL for such a request would look like this.
 
 *http://galwayfacilities.com/facilities/all*
 
-This would product al of the parks in JSON format.
+This would product all of the facilities in JSON format.
 ### HTTP Response in json
 ```json
 [
@@ -90,10 +90,14 @@ This URL returns back all of the names as opposed to all of the headings.
    "Name": "Laurel Park"}]
 ```
 
-### Location of the Parks 
-To get the location of the parks we use the http GET method to control the dataset. We could use a id to get a specific object. We can use the already assigned ID in the URL like this: 
+### Location of the Facilities 
+To get a specific facility we use the http GET method to control the dataset. We could use a id to get our designated object (id =5). This method returns all of the information from the fifth row. We can implement the already assigned ID into the URL like this: 
 
 *http://galwayfacilities.com/facilities/id=5
+
+| Heading | Description|
+| ------------- |:--------------------:|
+| Object ID     | Unique object number.|
 
 **Result:**
 
@@ -113,6 +117,31 @@ To get the location of the parks we use the http GET method to control the datas
     "NorthIG":224239.443
   }]
 ```
+
+ 
+To get the location of the facility we use the http GET method. For the URL we can get any of the named facilities with a URL like this:
+
+*http://galwayfacilities.com/facilities/location/[NAME]
+
+The [NAME] is replace with a name of a facility in the dataset. And it will return the longitude and latitude of the facility e.g Westside Sports.
+
+*http://galwayfacilities.com/facilities/location/Westside Sports
+
+| Heading | Description|
+|-----------|:---------------------:|
+| Latitude  | Facility co-ordinates |
+| Longitude | Facility co-ordinates |
+
+**Result:**
+
+```JSON
+[ {
+    "Lat":53.275,
+    "Long":-9.081,
+  }]
+```
+
+
 
 
 
