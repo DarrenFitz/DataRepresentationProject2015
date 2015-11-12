@@ -11,6 +11,8 @@ The **Galway City Public Sports Facilities** Dataset provides the user with all 
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*Galway City Public Sports Facilities*](https://data.gov.ie/dataset/galway-city-public-sports-facilities/resource/2db7c358-4ec1-4cfb-9456-d935cc0157aa).
 The CSV file contains 48 rows, the first being a header row with the names of each field.
 
+Each entry has 12 columns with headings as folows:
+
 
 | Headings       | Description                                                 | Example        |
 | -------------- |:-----------------------------------------------------------:|:--------------:|
@@ -26,3 +28,7 @@ The CSV file contains 48 rows, the first being a header row with the names of ea
 |NorthITM        | Westerly Irish Transverse Mercator (ITM) co-ordinate.       | 724385.8       |
 |EastIG          | East Irish Grid Reference number.                           | 124370         |
 |NorthIG         | North Irish Grid Reference number.                          | 224356.4       |
+
+Note: X and Y co-ordinates are the same as Lat and Long values except more precise.
+
+
