@@ -70,7 +70,7 @@ This would product al of the parks in JSON format.
   { ... },
 ] 
 ```
-To get all the names of the facilities using  the GET method might have a URl as follows:
+To get all the names of the facilities using the GET method might have a URl as follows.
 This URL returns back all of the names as opposed to all of the headings.
 
 *http://galwayfacilities.com/facilities/names*
@@ -88,6 +88,30 @@ This URL returns back all of the names as opposed to all of the headings.
    "Name": "McGraths Field 2",
    "Name": "Westside Sports",
    "Name": "Laurel Park"}]
+```
+
+### Location of the Parks 
+To get the location of the parks we use the http GET method to control the dataset. We could use a id to get a specific object. We can use the already assigned ID in the URL like this: 
+
+*http://galwayfacilities.com/facilities/id=5
+
+**Result: **
+
+```JSON
+[ {
+    "X":-9.111071048579548,
+    "Y":53.26358136885726,
+    "OBJECTID":5,
+    "NUMBER":"a05",
+    "TYPE":"G.A.A. Pitch",
+    "NAME":"McGraths Field",
+    "Lat":53.264,
+    "Long":-9.111,
+    "EastITM":525875.447,
+    "NorthITM":724268.851,
+    "EastIG":125908.684,
+    "NorthIG":224239.443
+  }]
 ```
 
 
