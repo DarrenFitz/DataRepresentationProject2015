@@ -10,3 +10,19 @@ The **Galway City Public Sports Facilities** Dataset provides the user with all 
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*Galway City Public Sports Facilities*](https://data.gov.ie/dataset/galway-city-public-sports-facilities/resource/2db7c358-4ec1-4cfb-9456-d935cc0157aa).
 The CSV file contains 48 rows, the first being a header row with the names of each field.
+
+
+| Headings       | Description                                                 | Example        |
+| -------------- |:-----------------------------------------------------------:|:--------------:|
+|X Coordinate    | Refers to the Longitude or how far east the location is.    | -9.134152048   |
+|Y Coordinate    | Refers to the Latitude or how far north the location is.    | 53.26441536    |
+|Object ID       | The unique ID given to each pitch.                          | 1              |
+|Number          | The number assigned to each pitch.                          | a01            |
+|Type            | Refers to what kind of pitch it is.                         | G.A.A Pitch    |
+|Name            | The name of the pitch.                                      | Cappagh Park   |
+|Lat             | Latitude coordinate of the pitch.                           | 53.264         |
+|Long            | Longitude coordinate of the pitch.                          | -9.134         |
+|EastITM         | Easterly Irish Transverse Mercator (ITM) co-ordinate.       | 524337.1       |
+|NorthITM        | Westerly Irish Transverse Mercator (ITM) co-ordinate.       | 724385.8       |
+|EastIG          | East Irish Grid Reference number.                           | 124370         |
+|NorthIG         | North Irish Grid Reference number.                          | 224356.4       |
