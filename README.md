@@ -39,4 +39,36 @@ Method | Definitions
 |**PUT**    | Replaces data at the URI to the request data    | 
 |**DELETE** | Delete the data at the URI                      |
 
+## Using HTTP Methods
+### List of Parks
+
+You can use the HTTP GET method to display all of the facilities.
+An appropriate URL for such a request would look like this.
+
+*http://galwayfacilities.com/facilities/all*
+
+This would product al of the parks in JSON format.
+### HTTP Response in json
+```json
+[
+  {
+    "X":-9.13415204770846,
+    "Y":53.26441535713331,
+    "OBJECTID":1,
+    "NUMBER":"a01",
+    "TYPE":"G.A.A. Pitch",
+    "NAME":"Cappagh Park",
+    "Lat":53.264,
+    "Long":-9.134,
+    "EastITM":524337.139,
+    "NorthITM":724385.826,
+    "EastIG":124370.044,
+    "NorthIG":224356.434
+  },
+  { ... },
+  { ... },
+  { ... },
+] 
+```
+
 
