@@ -95,7 +95,7 @@ To get the location of the parks we use the http GET method to control the datas
 
 *http://galwayfacilities.com/facilities/id=5
 
-**Result: **
+**Result:**
 
 ```JSON
 [ {
