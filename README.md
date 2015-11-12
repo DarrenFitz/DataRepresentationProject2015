@@ -9,10 +9,9 @@ The **Galway City Public Sports Facilities** Dataset provides the user with all 
 
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*Galway City Public Sports Facilities*](https://data.gov.ie/dataset/galway-city-public-sports-facilities/resource/2db7c358-4ec1-4cfb-9456-d935cc0157aa).
-The CSV file contains 48 rows, the first being a header row with the names of each field.
+The CSV file contains 47 rows, the first being a header row with the names of each field.
 
 Each entry has 12 columns with headings as folows:
-
 
 | Headings       | Description                                                 | Example        |
 | -------------- |:-----------------------------------------------------------:|:--------------:|
@@ -30,5 +29,14 @@ Each entry has 12 columns with headings as folows:
 |NorthIG         | North Irish Grid Reference number.                          | 224356.4       |
 
 Note: X and Y co-ordinates are the same as Lat and Long values except more precise.
+
+## HTTP Methods 
+Method | Definitions
+|---------- |-------------------------------------------------|
+|**GET**    | Retrieve resource from server using a given URI |   
+|**HEAD**   | Like GET, but retreives head only               |
+|**POST**   | Send information as block of data to server     | 
+|**PUT**    | Replaces data at the URI to the request data    | 
+|**DELETE** | Delete the data at the URI                      |
 
 
