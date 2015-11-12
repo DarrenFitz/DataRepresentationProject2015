@@ -31,7 +31,7 @@ Each entry has 12 columns with headings as folows:
 Note: X and Y co-ordinates are the same as Lat and Long values except more precise.
 
 ## HTTP Methods 
-Method | Definitions
+|Method     | Definitions                                     |
 |---------- |-------------------------------------------------|
 |**GET**    | Retrieve resource from server using a given URI |   
 |**HEAD**   | Like GET, but retreives head only               |
@@ -70,5 +70,25 @@ This would product al of the parks in JSON format.
   { ... },
 ] 
 ```
+To get all the names of the facilities using  the GET method might have a URl as follows:
+This URL returns back all of the names as opposed to all of the headings.
+
+*http://galwayfacilities.com/facilities/names*
+
+| Heading | Description|
+| ------------- |:--------------------:|
+| Name          | The facilities name. |
+
+### HTTP Response in json
+
+```JSON
+[ {"Name": "Cappagh Park", 
+   "Name": "McGraths Field",
+   "Name": "McGraths Field 1",
+   "Name": "McGraths Field 2",
+   "Name": "Westside Sports",
+   "Name": "Laurel Park"}]
+```
+
 
 
