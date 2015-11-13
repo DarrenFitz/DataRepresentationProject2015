@@ -142,15 +142,27 @@ The [NAME] is replace with a name of a facility in the dataset. And it will retu
 ```
 ### Using PUT method to add data to dataset
 Here is an example of how we use PUT to update a record.
-```http://galwayfacilities.com/facilities/new
-```
+``` http://galwayfacilities.com/facilities/new ```
+
 **Request Body Example**
 ```
-  - PUT   /galwayfacilities/new HTTP/1.1
+  - PUT   /galwayfacilities/new.html HTTP/1.1
   - Host: galwayfacilities.com
   - OBJECTID="5"&NUMBER="a05"&TYPE="G.A.A.Pitch"&NAME="McGrathsFiels"&LAT="53.262"&LONG="-9.134"
   
 ```
+### Using DELETE method to remove data from dataset
+To delete something from a dataset you must us ethe DELETE method.
+To pick a column to be deleted whe use a unique identifier such as "OBJECT ID".
+You use DELETE method at following URL:
 
+``` http://galwayfacilities.com/facilities/delete/id=6 ```
+
+**Response Example**
+```
+      HTTP/1.1 200 OK
+      "URL DELETED"
+...
+```
 
 
