@@ -135,9 +135,7 @@ The [NAME] is replace with a name of a facility in the dataset. And it will retu
 [ {
     "Lat":53.275,
     "Long":-9.081,
-  },
-  { ... },
-  { ... }
+  }
   ]
 ```
 ### Using PUT method to add data to dataset
