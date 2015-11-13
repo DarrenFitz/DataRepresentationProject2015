@@ -14,7 +14,7 @@ The CSV file contains 47 rows, the first being a header row with the names of ea
 Each entry has 12 columns with headings as folows:
 
   | Headings       | Description                                                 | 
-  | -------------- | ----------------------------------------------------------- |
+  | -------------- |-------------------------------------------------------------|
   |X Coordinate    | Refers to the Longitude or how far east the location is.    | 
   |Y Coordinate    | Refers to the Latitude or how far north the location is.    | 
   |Object ID       | The unique ID given to each pitch.                          | 
