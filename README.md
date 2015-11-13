@@ -92,7 +92,7 @@ This URL returns back all of the names as opposed to all of the headings.
 ### Location of the Facilities 
 To get a specific facility we use the http GET method to control the dataset. We could use a id to get our designated object (id =5). This method returns all of the information from the fifth row. We can implement the already assigned ID into the URL like this: 
 
-*http://galwayfacilities.com/facilities/id=5
+*http://galwayfacilities.com/facilities/id=5*
 
 | Heading | Description|
 | ------------- |:--------------------:|
@@ -119,11 +119,11 @@ To get a specific facility we use the http GET method to control the dataset. We
  
 To get the location of the facility we use the http GET method. For the URL we can get any of the named facilities with a URL like this:
 
-*http://galwayfacilities.com/facilities/location/[NAME]
+*http://galwayfacilities.com/facilities/location/[NAME]*
 
 The [NAME] is replace with a name of a facility in the dataset. And it will return the longitude and latitude of the facility e.g Westside Sports.
 
-*http://galwayfacilities.com/facilities/location/Westside Sports
+*http://galwayfacilities.com/facilities/location/Westside Sports*
 
 | Heading | Description|
 |-----------|:---------------------:|
