@@ -13,20 +13,20 @@ The CSV file contains 47 rows, the first being a header row with the names of ea
 
 Each entry has 12 columns with headings as folows:
 
-  | Headings       | Description                                                 | 
-  |----------------|-------------------------------------------------------------|
-  |X Coordinate    | Refers to the Longitude or how far east the location is.    | 
-  |Y Coordinate    | Refers to the Latitude or how far north the location is.    | 
-  |Object ID       | The unique ID given to each pitch.                          | 
-  |Number          | The number assigned to each pitch.                          | 
-  |Type            | Refers to what kind of pitch it is.                         | 
-  |Name            | The name of the pitch.                                      |
-  |Lat             | Latitude coordinate of the pitch.                           | 
-  |Long            | Longitude coordinate of the pitch.                          |
-  |EastITM         | Easterly Irish Transverse Mercator (ITM) co-ordinate.       | 
-  |NorthITM        | Westerly Irish Transverse Mercator (ITM) co-ordinate.       | 
-  |EastIG          | East Irish Grid Reference number.                           | 
-  |NorthIG         | North Irish Grid Reference number.                          | 
+|Headings        | Description                                                 | 
+|--------------- |-------------------------------------------------------------|
+|X Coordinate    | Refers to the Longitude or how far east the location is.    | 
+|Y Coordinate    | Refers to the Latitude or how far north the location is.    | 
+|Object ID       | The unique ID given to each pitch.                          | 
+|Number          | The number assigned to each pitch.                          | 
+|Type            | Refers to what kind of pitch it is.                         | 
+|Name            | The name of the pitch.                                      |
+|Lat             | Latitude coordinate of the pitch.                           | 
+|Long            | Longitude coordinate of the pitch.                          |
+|EastITM         | Easterly Irish Transverse Mercator (ITM) co-ordinate.       | 
+|NorthITM        | Westerly Irish Transverse Mercator (ITM) co-ordinate.       | 
+|EastIG          | East Irish Grid Reference number.                           | 
+|NorthIG         | North Irish Grid Reference number.                          | 
 
 
 ## HTTP Methods 
