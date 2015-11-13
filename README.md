@@ -123,7 +123,7 @@ To get the location of the facility we use the http GET method. For the URL we c
 
 The [NAME] is replace with a name of a facility in the dataset. And it will return the longitude and latitude of the facility e.g Westside Sports.
 
-*http://galwayfacilities.com/facilities/location/Westside Sports*
+*http://galwayfacilities.com/facilities/location/Westside_Sports*
 
 | Heading | Description|
 |-----------|:---------------------:|
