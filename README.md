@@ -48,7 +48,7 @@ An appropriate URL for such a request would look like this.
 *http://galwayfacilities.com/facilities/all*
 
 This would product all of the facilities in JSON format.
-### HTTP Response in json
+**HTTP Response in json**
 ```json
 [
   {
@@ -79,8 +79,7 @@ This URL returns back all of the names as opposed to all of the headings.
 | ------------- |:--------------------:|
 | Name          | The facilities name. |
 
-### HTTP Response in json
-
+**HTTP Response in json**
 ```JSON
 [ {"Name": "Cappagh Park", 
    "Name": "McGraths Field",
@@ -99,8 +98,7 @@ To get a specific facility we use the http GET method to control the dataset. We
 | ------------- |:--------------------:|
 | Object ID     | Unique object number.|
 
-**Result:**
-
+**HTTP Response in json**
 ```JSON
 [ {
     "X":-9.111071048579548,
@@ -132,16 +130,27 @@ The [NAME] is replace with a name of a facility in the dataset. And it will retu
 | Latitude  | Facility co-ordinates |
 | Longitude | Facility co-ordinates |
 
-**Result:**
-
+**HTTP Response in json**
 ```JSON
 [ {
     "Lat":53.275,
     "Long":-9.081,
-  }]
+  },
+  { ... },
+  { ... }
+  ]
 ```
-
-
+### Using PUT method to add data to dataset
+Here is an example of how we use PUT to update a record.
+```http://galwayfacilities.com/facilities/new
+```
+**Request Body Example**
+```
+  - PUT   /galwayfacilities/new HTTP/1.1
+  - Host: galwayfacilities.com
+  - OBJECTID="5"&NUMBER="a05"&TYPE="G.A.A.Pitch"&NAME="McGrathsFiels"&LAT="53.262"&LONG="-9.134"
+  
+```
 
 
 
